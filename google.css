@@ -1,0 +1,29 @@
+body {
+    font-family: 'Cantarell', sans-serif;
+}
+
+#logo-container {
+    width: 25%;
+    margin: 10% auto;
+    float: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: block;
+    margin: 0 1%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
