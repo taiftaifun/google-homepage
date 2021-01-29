@@ -1,16 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
 body {
     font-family: 'Cantarell', sans-serif;
+    font-size: 13px;
 }
 
-#logo-container {
-    width: 25%;
-    margin: 10% auto;
-    float: none;
-}
-
-ul {
+#nav-bar {
     list-style-type: none;
     margin: 0;
+    margin-top: 1%;
     padding: 0;
     overflow: hidden;
 }
@@ -26,4 +27,44 @@ li {
 
 .right {
     float: right;
+}
+
+#search-container {
+    width: 50%;
+    margin: 10% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#google-logo {
+    max-width: 20%;
+}
+
+#search-form {
+    border: solid;
+    border-width: 1px;
+    border-top-right-radius: 10%;
+    border-color: #dfe1e5;
+}
+
+#search-input {
+    width: 90%;
+    height: 20%;
+}
+
+#buttons {
+    flex-direction: row;
+}
+
+#footer {
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+}
+
+#footer > li {
+    padding: 1% 0;
 }
