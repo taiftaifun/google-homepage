@@ -1,26 +1,29 @@
 <head>
     <link rel="stylesheet" href="google.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cantarell&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fe75f05a7d.js" crossorigin="anonymous"></script> 
 </head>
 
 <body>
     <ul id="nav-bar">
         <li class="left">About</li>
         <li class="left">Store</li>
-        
-        <li class="right">Sign in</li>
-        <li class="right">Apps</li>
+        <li class="right" id="sign-in">Sign in</li>
         <li class="right">Images</li>
         <li class="right">Gmail</li>
     </ul>
     <div id="search-container">
-        <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
         <form id="search-form">
-            <input id="search-input">
+            <div id="search-wrapper">
+                <i id="loupe" class="fas fa-search"></i>
+                <input id="search-input">
+                <img id="microphone" src="https://i.imgur.com/l5S4LZ2.png">
+            </div>
             <div id="buttons">
-                <button>Google Search</button>
-                <button>I'm Feeling Lucky</button>
+                <button class="google-button">Google Search</button>
+                <button class="google-button">I'm Feeling Lucky</button>
             </div>
         </form>
     </div>
